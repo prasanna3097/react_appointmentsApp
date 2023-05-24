@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.appointment-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+}
+.appointment {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+.main-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 45px;
+}
+.input {
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+  border-style: none;
+  margin-top: 10px;
+}
+.image {
+  height: 250px;
+  width: 400px;
+  margin-top: 30px;
+  margin: 20px;
+}
+.horizontal-line {
+  color: #b5b7c4;
+  margin: 15px;
+}
+.appointment {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.appointment-starred-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.starred-btn {
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #9897f0;
+  height: 20px;
+  width: 80px;
+  margin: 30px;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: #ffffff;
+  border: 1px solid #9897f0;
+}
+.appointment-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}

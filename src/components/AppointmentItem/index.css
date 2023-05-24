@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.appointment-list-container {
+  list-style-type: none;
+}
+.appointment-details {
+  height: 80px;
+  width: 200px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-star-container {
+  display: flex;
+  flex-direction: row;
+}
+.titleInput {
+  color: #171f46;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 0px;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  border-style: none;
+}
+.date-style {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
